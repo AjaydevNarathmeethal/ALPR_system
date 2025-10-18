@@ -1,0 +1,19 @@
+# Ignore folders
+.idea/
+.vscode/
+license_plates/
+__pycache__/
+
+# Ignore specific image files
+car.jpg
+car2.jpg
+Halftone_Gaussian_Blur.jpg
+license_plate_cropped.jpg
+opencv_logo.png
+pysearch.png
+
+# Ignore specific Python files
+License plate v1.py
+Main Code.py
+ocr_license_plate.py
+Test.py
