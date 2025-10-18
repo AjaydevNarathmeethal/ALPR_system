@@ -27,11 +27,6 @@ while (cap.isOpened()):
             (x, y, w, h) = cv2.boundingRect(lpCnt)
             cv2.putText(img, cleanup_text(lpText), (x, y - 15),
                 cv2.FONT_HERSHEY_SIMPLEX, 0.75, (0, 255, 0), 2)
-            # show the output ANPR image
-            #print("[INFO] {}".format(lpText))
-            # cv2.imshow("Output ANPR", img)
-            # cv2.waitKey(0)
-            # cv2.destroyWindow('Output ANPR')
 
         # show the license number in the original video    
         cv2.imshow('Video', img)
